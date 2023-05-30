@@ -57,4 +57,4 @@ async def rephrase(req: RequestData):
         return { "choices": suggestions }
     except Exception as e:
         # Handle any other unexpected exceptions
-        raise HTTPException(status_code=500, detail="An error occurred during division.")
+        raise HTTPException(status_code=500, detail="An error occurred during rephrase.")
